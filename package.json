@@ -1,0 +1,33 @@
+{
+  "name": "vuejs-panorama",
+  "version": "1.1.9",
+  "description": "VueJS Panorama Viewer",
+  "main": "dist/Panorama.js",
+  "scripts": {
+    "build": "vue build Panorama.vue --prod --lib --config build.config.js",
+    "example": "vue build example.vue",
+    "dev": "http-server . -p 8084"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mudin/vue-panorama.git"
+  },
+  "keywords": [
+    "vue",
+    "panorama",
+    "viewer",
+    "wheel"
+  ],
+  "author": "mudin (http://mudin.github.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mudin/vue-panorama.git/issues"
+  },
+  "homepage": "https://github.com/mudin/vue-panorama.git/#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "vue-cli": "^2.9.6",
+    "webpack-node-externals": "^1.5.4"
+  },
+  "dependencies": {}
+}
